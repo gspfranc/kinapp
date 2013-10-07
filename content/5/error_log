@@ -1,0 +1,2 @@
+[09-Apr-2013 23:51:43 UTC] PHP Warning:  include(/inc/analyticstracking.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kinappca/public_html/content/header.php on line 16
+[09-Apr-2013 23:51:43 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/inc/analyticstracking.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kinappca/public_html/content/header.php on line 16

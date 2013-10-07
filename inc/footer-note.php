@@ -1,0 +1,1 @@
+<!--span style="margin-right:10px; font-size:0.8em; float:right">Version Bêta, © Francis Gravel St-Pierre</span-->

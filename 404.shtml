@@ -1,0 +1,148 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>KinApp</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+	<script src="FitText.js-master/jquery.fittext.js"></script>  
+	
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	
+	<style>
+	.ui-body-c {
+	background-image:url('img/background.png') !important;
+	background-color:#D9D9D9 !important;
+	background-repeat:no-repeat;
+	background-position:50% 0%; 
+	}
+	
+	#logo{
+	max-width:600px;
+	width:85%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	border: 0px solid black
+	}
+	
+	#logo img {
+	max-width:700px;
+	width:100%;
+	height:auto;
+	
+	}
+	
+	#rs, #start{
+	max-width:500px;
+	text-align:center;
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	}
+	
+	.dem {
+	font-family: 'Arial Bold', sans-serif;
+	font-size: 2.5em;
+	color: #313133 !important;
+	text-decoration: none;
+	
+     background: #fdfdfd;
+     background: -webkit-linear-gradient( #fdfdfd, #c5c7c9);
+     background:    -moz-linear-gradient( #fdfdfd, #c5c7c9);
+     background:     -ms-linear-gradient( #fdfdfd, #c5c7c9);
+     background:      -o-linear-gradient( #fdfdfd, #c5c7c9);
+     background:         linear-gradient( #fdfdfd, #c5c7c9);
+	
+	}
+
+#start {
+margin-top: 0.5em;
+}
+
+#bouton_dem {
+border:5px solid #afb2b4;
+border-radius: 8px;
+line-height:200%
+
+}
+
+.ui-grid-a .ui-block-a ,.ui-grid-a .ui-block-b{
+width:45%;
+}
+
+.ui-grid-a .ui-block-b {
+margin-left: 10% !important;
+}
+
+.but img {
+width:100%;
+height:auto;
+}
+
+
+.ui-bar, .ui-body {
+	padding: .2em 15px !important;
+}
+
+@media all and (min-width: 780px) {
+.but img {
+max-height:150px;
+width:auto;
+}
+
+#bouton_dem:hover{
+border: #800000 5px solid
+}
+
+
+}
+
+
+</style>
+</head> 
+<body> 
+
+<div id = "page" data-role="page">
+
+	<!--div data-role="header">
+		<h1>My Title</h1>
+	</div--><!-- /header -->
+
+<div data-role="content">	
+<div id="logo" class="ui-bar">
+<img src= "http://kinapp.ca/img/logo.png" >
+</div>
+
+<div id = "start" class="ui-bar">
+<div class="ui-grid-solo" >
+	<h1 style="font-size:2em;">Oups, la page souhaitée n'existe pas ! <br> Erreur 404</h1>
+</div><!-- /grid-a -->
+</div>
+<div id = "rs" class="ui-bar">
+<div class="ui-grid-solo">
+	<a href="http://kinapp.ca/nouveau.php" data-ajax="false" id = "bouton_dem" class=" dem but ui-block-a"><span id="span-dem">Retour</span></a>
+</div><!-- /grid-a -->
+</div>
+	
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<script>  
+   //$(".dem").fitText(); // basique  
+   //$("#span-dem").fitText(1.2); // compression proportionnelle  
+   //$("#span-dem").fitText(0.8); // décompression proportionnelle  
+   //$(".responsive_headline").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' }); // compression avec taille max et taille min  
+</script> 
+
+</body>
+</html>
